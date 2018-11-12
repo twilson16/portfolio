@@ -5,7 +5,9 @@ class Header extends Component {
   render () {
     return (
       <header className='App-header'>
-        <h1>Tina Wilson</h1>
+        <div className='myName'>
+          <h1>Tina Wilson</h1>
+        </div>
       </header>
     )
   }

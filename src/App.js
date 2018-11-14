@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
+import { Router, Route, Switch } from 'react-router'
+
 import './App.css'
-import Header from './Header'
-import Nav from './Nav'
+import HomeHeader from './HomeHeader'
 
 class App extends Component {
   render () {
     return (
       <div className='App'>
-        <Header />
-        <Nav />
+        <HomeHeader />
         <div>Portfolio Coming Soon!</div>
       </div>
     )

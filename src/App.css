@@ -5,14 +5,15 @@
   margin: 0;
 }
 
-body {
+body, html {
+  height: 100%;
   margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 80%;
+  max-width: 95%;
 }
 
 code {
@@ -20,38 +21,43 @@ code {
     monospace;
 }
 
-header {
+.hero-image {
+  background-image: url('./Media/resize-watson-falls.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 375px;
+}
+
+.hero-text {
   font-family:'Merienda', cursive, century-gothic, Verdana;
+  font-size: 1.2rem;
   text-align: center;
   color: white;
-  background-image: url('./Media/resize-watson-falls.jpg');
-  background-repeat: no-repeat;
-  /* background-color: teal; */
-  height: 375px;
-  margin: 0;
-  /* max-width: 100%; */
-}
-
-.myName {
   position: absolute;
-  top: 20%;
-  left: 45%;
+  top: 35%;
+  left: 38%;
 }
 
-button {
-  padding: 10px 80px;
-  margin: 5px 10px;
-  border: none;
-  font-size: 1.2rem;
-} 
-
-.menu {
-  list-style: none;
+.menu-bar {
+  width: 100%;
+  background-color:  #447735;
 }
 
 .menu-item {
-  width: 32%;
+  list-style: none;
+  width: 33%;
   display: inline-block;
-  /* padding: 5px 10px; */
+  padding: 5px 10px;
   text-align: center;
 }
+
+.menu-button {
+  color: white;
+  border: none;
+  width: 70%;
+  font-size: 1.2rem;
+  background-color: #447735; 
+} 
+

@@ -61,7 +61,7 @@ code {
   background-color: #447735; 
 }  */
 
-.header-name {
+.header-name, .header-name-home {
   font-family:'Merienda', cursive, century-gothic, Verdana;
   font-size: 2.2rem;
   width: 40%;

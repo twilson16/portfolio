@@ -21,6 +21,7 @@ class About extends Component {
             On a daily basis I set goals for myself, and work to reach them no matter what challenges arise.
             This is especially true for work projects and assignments - where I strive for excellence in my work.
             </p>
+            <p></p>
           </div>
         </div>
       </div>

@@ -13,7 +13,11 @@ body, html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 95%;
+}
+
+.board {
+  max-width: 90%;
+  margin: 20px auto;
 }
 
 code {
@@ -27,63 +31,27 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 575px;
+  height: 50vh;
 }
 
-.hero-text {
-  font-family:'Merienda', cursive, century-gothic, Verdana;
-  font-size: 1.2rem;
-  text-align: center;
-  color: white;
-  position: absolute;
-  top: 35%;
-  left: 38%;
-}
-/* Menu bar under hero image */
-/* .menu-bar {
-  width: 100%;
-  background-color:  #447735;
-}
-
-.menu-item {
-  list-style: none;
-  width: 33%;
-  display: inline-block;
-  padding: 5px 10px;
-  text-align: center;
-}
-
-.menu-button {
-  color: white;
-  border: none;
-  width: 70%;
-  font-size: 1.2rem;
-  background-color: #447735; 
-}  */
-
-.header-name {
+.header-name, .header-name-home {
   font-family:'Merienda', cursive, century-gothic, Verdana;
   font-size: 2.2rem;
   width: 40%;
   display: inline-block;
   padding: 0px 25px;
-  /* opacity: 0; */
   text-shadow: 1px 1px black;
-  /* : (rgba(255, 255, 255, .1), rgba(255, 255, 255, .1)); */
-  /* opacity: 0.9;
-  filter: alpha(opacity=50) */
 }
 
 .nav-bar {
   display: inline-block;
   width: 60%;
   margin: 30px 0px;
-  /* opacity: 0; */
   opacity: 0.6;
   filter: alpha(opacity=60)
 }
 
-.menu-item {
+.home-menu-item, .about-menu-item {
   list-style: none;
   width: 33%;
   display: inline-block;
@@ -91,33 +59,49 @@ code {
   text-align: center;
 }
 
-.menu-button {
+.home-menu-link, .about-menu-link {
+  text-decoration: none;
   border: none;
+  padding: 5px 30px;
   width: 70%;
   font-size: 1.2rem;
   color :white;
   background-color: #447735; 
-  
 }  
 
-.about-container {
+.about-header {
   max-width: 90%;
   margin: 0 auto;
 }
 
+hr {
+  border: .5px solid black;
+  width: 98%;
+}
+
+.about-container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0px 0px 20px 0px;
+}
+
 .about-image {
-  width: 70%;
+  width: 60%;
+  height: 20%;
   border: 1px solid lightblue;
-  margin: 20px 15%;
+  margin: 30px 20%;
 }
 
 .about-title {
   font-family:'Merienda', cursive, century-gothic, Verdana;
   font-size: 1.3rem;
   padding: 5px 30px;
+  max-width: 85%;
+  margin: 0 auto;
 }
 
 .about-info {
-  /* max-width: 80%; */
-  padding: 5px 30px 0px 30px;
+  padding: 5px 30px 50px 30px;
+  max-width: 85%;
+  margin: 0 auto;
 }

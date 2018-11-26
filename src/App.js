@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
 
 import './App.css'
-import Header from './Header'
+// import Header from './Header'
+import HomeHeader from './HomeHeader'
+import AboutHeader from './AboutHeader'
 import About from './About'
 import Portfolio from './Portfolio'
 // import Resume from './Resume'
@@ -32,7 +34,11 @@ class App extends Component {
   render () {
     return (
       <div className='App'>
-        <div> <Header setHome={this.state.home} isHome={this.handleChangeToHome} isOther={this.handleChangeToOther} /></div>
+        {this.state.home ? (
+          <div> <HomeHeader setHome={this.state.home} isHome={this.handleChangeToHome} isOther={this.handleChangeToOther} /></div>
+        )
+          : (<div> <AboutHeader setHome={this.state.home} isHome={this.handleChangeToHome} isOther={this.handleChangeToOther} /></div>)
+        }
         <div className='board'>
           <Route exact path='/' render={() => (<Portfolio />)} />
           <Route path='/about' render={() => (<About />)} />

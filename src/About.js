@@ -21,8 +21,13 @@ class About extends Component {
             This is especially true for work projects and assignments - where I strive for excellence.
               </p>
               <br />
+              <p>
+                I recently completed a front-end development immersive program with Momentum Learning. Prior to that, I was a social worker in community mental health for 5 years. 
+                I truly enjoyed the work I was doing previously, and I wanted to develop new skills that challenge me in different ways.
+              </p>
+              <br />
               <p className='photo-description'>
-            Above: a photo I took after completing the hike to the top of Misery Ridge in Oregon’s Smith Rock State Park.
+                 Above: a photo I took after completing the hike to the top of Misery Ridge in Oregon’s Smith Rock State Park.
               </p>
             </div>
           </div>

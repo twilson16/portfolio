@@ -4,30 +4,6 @@ import './App.css'
 // import Nav from './Nav'
 
 class Header extends Component {
-  constructor (props) {
-    super(props)
-    this.state = {
-      home: this.props.home
-    }
-    // this.handleChangeToHome = this.handleChangeToHome.bind(this)
-    // this.handleChangeToOther = this.handleChangeToOther.bind(this)
-  }
-
-  // handleChangeToHome (e) {
-  //   console.log(this.state.home, 'before change to home')
-  //   this.setState(state => (
-  //     {home: 'true'}))
-  //   console.log(this.state.home, 'after change to home')
-  // }
-
-  // handleChangeToOther (e) {
-  //   console.log(this.state.home, 'before change to other')
-  //   this.setState(state => (
-  //     {home: 'false'}))
-
-  //   console.log(this.state.home, 'after change to home')
-  // }
-
   render () {
     const home = this.state.home
     const { isHome } = this.props
@@ -57,10 +33,7 @@ class Header extends Component {
               <div className='nav-bar'>
                 <div className='menu-bar'>
                   <ul className='menu'>
-                    <li className='menu-item'><NavLink to='/'
-                      onClick={(e) => isHome(e)}>Portfolio
-                    </NavLink>
-                    </li>
+                    <li className='menu-item'><NavLink to='/' onClick={(e) => isHome(e)}>Portfolio</NavLink></li>
                     <li className='menu-item'><NavLink to='/about'
                       onClick={(e) => isOther(e)}>About Me
                     </NavLink></li>

@@ -1,19 +1,43 @@
 import React, { Component } from 'react'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 
 import './App.css'
 import Header from './Header'
 import About from './About'
+import Portfolio from './Portfolio'
+// import Resume from './Resume'
 
 class App extends Component {
+  constructor () {
+    super()
+    this.state = {
+      home: true
+    }
+    this.handleChangeToHome = this.handleChangeToHome.bind(this)
+    this.handleChangeToOther = this.handleChangeToOther.bind(this)
+  }
+
+  handleChangeToHome (e) {
+    console.log(this.state.home, 'change to home')
+    this.setState(state => (
+      {home: true}))
+  }
+
+  handleChangeToOther (e) {
+    console.log(this.state.home, 'change to other')
+    this.setState(state => (
+      {home: false}))
+  }
+
   render () {
     return (
-      <BrowserRouter>
-        <div className='App'>
-          <Route exact path='/' render={props => <Header extra={<div className='hero-image'>{Header}</div>} />} />
-          <Route path='/about' component={About} />
+      <div className='App'>
+        <div> <Header setHome={this.state.home} isHome={this.handleChangeToHome} isOther={this.handleChangeToOther} /></div>
+        <div className='board'>
+          <Route exact path='/' render={() => (<Portfolio />)} />
+          <Route path='/about' render={() => (<About />)} />
         </div>
-      </BrowserRouter>
+      </div>
     )
   }
 }

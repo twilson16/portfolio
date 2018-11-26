@@ -1,23 +1,23 @@
 import React, { Component } from 'react'
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Link } from 'react-router-dom'
 import './App.css'
 import Resume from './Media/ChristinaWilsonResume2018.pdf'
 
 class Nav extends Component {
-  constructor (props) {
-    super(props)
-    this.state = {
-      home: this.props.home
-    }
-  }
+  // constructor (props) {
+  //   super(props)
+  //   this.state = {
+  //     home: this.props.home
+  //   }
+  // }
 
-  handleChangeToHome () {
-    this.setState({home: true})
-  }
+  // handleChangeToHome () {
+  //   this.setState({home: true})
+  // }
 
-  handleChangeToOther () {
-    this.setState({home: false})
-  }
+  // handleChangeToOther () {
+  //   this.setState({home: false})
+  // }
 
   render () {
     return (

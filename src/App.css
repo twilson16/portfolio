@@ -25,33 +25,32 @@ code {
     monospace;
 }
 
-.hero-image {
-  background-image: url('./Media/resize-watson-falls.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 50vh;
+.header {
+  background-color: #A19DA5;
 }
 
-.header-name, .header-name-home {
+.header-name {
   font-family:'Merienda', cursive, century-gothic, Verdana;
   font-size: 2.2rem;
   width: 40%;
   display: inline-block;
   padding: 0px 25px;
   text-shadow: 1px 1px black;
+  text-align: left;
+  opacity: 1;
+  color: black;
+  /* background-color: #924CCC; */
 }
 
 .nav-bar {
   display: inline-block;
   width: 60%;
   margin: 30px 0px;
-  opacity: 0.6;
+  opacity: 0.8;
   filter: alpha(opacity=60)
 }
 
-.home-menu-item, .about-menu-item {
+.menu-item {
   list-style: none;
   width: 33%;
   display: inline-block;
@@ -59,24 +58,20 @@ code {
   text-align: center;
 }
 
-.home-menu-link, .about-menu-link {
+.menu-link {
   text-decoration: none;
   border: none;
   padding: 5px 30px;
-  width: 70%;
+  /* width: 30%; */
   font-size: 1.2rem;
   color :white;
-  background-color: #447735; 
+  background-color: teal;
+  border-radius: 4px;
 }  
 
 .about-header {
   max-width: 90%;
   margin: 0 auto;
-}
-
-hr {
-  border: .5px solid black;
-  width: 98%;
 }
 
 .about-container {
@@ -104,4 +99,75 @@ hr {
   padding: 5px 30px 50px 30px;
   max-width: 85%;
   margin: 0 auto;
+}
+
+.portfolio-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.portfolio-title {
+  font-family:'Merienda', cursive, century-gothic, Verdana;
+  font-size: 1.2rem;
+  padding: 15px 0px;
+  color: teal
+}
+
+.single-project {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 5px 0px;
+}
+
+.project-desc {
+  max-width: 78%;
+  margin: 5px 10px;
+}
+
+.project-tech, .tech-list {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+.project-examples {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.whole-example {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+}
+
+.project-github, .live-site-container, .presentation-container {
+  display: inline-block;
+}
+
+.project-github, .project-live, .presentation { 
+  padding: 10px 5px 10px 5px;
+}
+
+.footer {
+  background: teal;
+  height: 100px;
+  padding: 20px;
+  color: white
+}
+
+.footer-break {
+  color: white;
+}
+
+
+.update {
+  text-align: center;
+  padding: 20px;
+  font-family:'Merienda', cursive, century-gothic, Verdana;
+  font-size: 1.2rem;
 }

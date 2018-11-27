@@ -1,0 +1,36 @@
+{
+    "projects": [  
+{
+    "title": "Traction App",
+    "description": "An app created as our final project for Momentum Learning's immersive program to track the distribution of Naloxone kits.",
+    "tech": "Ruby on Rails, React, Devise gem, QR code scanner, Heroku",
+    "examples": [{}, {}],
+    "github": "",
+    "live": ""
+},
+{
+    "title": "Traction App 2",
+    "description": "An app created as our final project for Momentum Learning's immersive program to track the distribution of Naloxone kits.",
+    "tech": "Ruby on Rails, React, Devise gem, QR code scanner, Heroku",
+    "examples": [{}],
+    "github": "",
+    "live": ""
+},
+{
+    "title": "Traction App 3",
+    "description": "An app created as our final project for Momentum Learning's immersive program to track the distribution of Naloxone kits.",
+    "tech": "Ruby on Rails, React, Devise gem, QR code scanner, Heroku",
+    "examples": [{}],
+    "github": "",
+    "live": ""
+},
+{
+    "title": "Traction App 4",
+    "description": "An app created as our final project for Momentum Learning's immersive program to track the distribution of Naloxone kits.",
+    "tech": "Ruby on Rails, React, Devise gem, QR code scanner, Heroku",
+    "examples": [{}],
+    "github": "",
+    "live": ""
+}
+]
+}

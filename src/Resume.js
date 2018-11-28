@@ -1,28 +1,12 @@
 import React, { Component } from 'react'
-// import { Document } from 'react-pdf'
 import './App.css'
-// import pdf from './Media/ChristinaWilsonResume2018.pdf'
+import pdf from './Media/ChristinaWilsonResume2018.png'
 
 class Resume extends Component {
-  // constructor () {
-  //   super()
-  //   this.state = {
-  //     numPages: null,
-  //     pageNumber: 1,
-  //   }
-  // }
-
-  // onDocumentLoadSuccess = ({ numPages }) => {
-  //     this.setState({ numPages });
-  //   }
-
   render () {
-    // const { pageNumber, numPages } = this.state;
     return (
       <div>
-        {/* <Document */}
-          {/* file={pdf} */}
-        />
+        <img src={pdf} alt='resume' className='resume-img' />
       </div>
     )
   }

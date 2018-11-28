@@ -6,7 +6,7 @@ import Header from './Header'
 import About from './About'
 import Portfolio from './Portfolio'
 import Footer from './Footer'
-// import Resume from './Resume'
+import Resume from './Resume'
 
 class App extends Component {
   render () {
@@ -16,6 +16,7 @@ class App extends Component {
         <div className='board'>
           <Route exact path='/' render={() => (<Portfolio />)} />
           <Route path='/about' render={() => (<About />)} />
+          <Route path='/resume' render={() => (<Resume />)} />
         </div>
         <Footer />
       </div>

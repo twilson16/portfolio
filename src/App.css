@@ -114,12 +114,13 @@ code {
 
 .information {
   display: inline-block;
-  max-width: 60%;
+  max-width: 40%;
   vertical-align: top;
 }
 
 .project-examples {
   display: inline-block;
+  max-width: 50%;
 }
 
 .media {
@@ -145,7 +146,7 @@ code {
 }
 
 .project-links {
-  margin: 20px 10px 20px 5px;
+  margin: 20px 5px 20px 5px;
 }
 
 .project-github, .live-site-container, .presentation-container {

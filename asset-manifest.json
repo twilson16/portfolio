@@ -1,13 +1,15 @@
 {
-  "main.css": "/portfolio/static/css/main.07a42f0d.chunk.css",
-  "main.js": "/portfolio/static/js/main.0deaad3d.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.0deaad3d.chunk.js.map",
-  "static/js/1.3a58f11f.chunk.js": "/portfolio/static/js/1.3a58f11f.chunk.js",
-  "static/js/1.3a58f11f.chunk.js.map": "/portfolio/static/js/1.3a58f11f.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.7a27ce69.chunk.css",
+  "main.js": "/portfolio/static/js/main.417ec53d.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.417ec53d.chunk.js.map",
+  "static/js/1.6458edbe.chunk.js": "/portfolio/static/js/1.6458edbe.chunk.js",
+  "static/js/1.6458edbe.chunk.js.map": "/portfolio/static/js/1.6458edbe.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
-  "static/css/main.07a42f0d.chunk.css.map": "/portfolio/static/css/main.07a42f0d.chunk.css.map",
+  "static/css/main.7a27ce69.chunk.css.map": "/portfolio/static/css/main.7a27ce69.chunk.css.map",
+  "static/media/App.css": "/portfolio/static/media/resize-watson-falls.4af30000.jpg",
+  "static/media/cropped_misery_ridge_adj.jpg": "/portfolio/static/media/cropped_misery_ridge_adj.498628a4.jpg",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.c942795396b10ff80c424208adcdda8c.js": "/portfolio/precache-manifest.c942795396b10ff80c424208adcdda8c.js",
+  "precache-manifest.99ac63959d5f41c70f65e470db89d1ef.js": "/portfolio/precache-manifest.99ac63959d5f41c70f65e470db89d1ef.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }

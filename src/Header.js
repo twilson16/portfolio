@@ -11,7 +11,7 @@ class Header extends Component {
           <div className='nav-bar'>
             <div className='menu-bar'>
               <ul className='menu'>
-                <li className='menu-item'><NavLink to='/portfolio' className='menu-link'>Portfolio</NavLink></li>
+                <li className='menu-item'><NavLink to='/' className='menu-link'>Portfolio</NavLink></li>
                 <li className='menu-item'><NavLink to='/about' className='menu-link'>About Me</NavLink></li>
                 <li className='menu-item resume'><NavLink to='/resume' className='menu-link'>Resume</NavLink></li>
               </ul>

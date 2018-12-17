@@ -14,9 +14,9 @@ class App extends Component {
       <div className='App'>
         <Header />
         <div className='board'>
-          <Route exact path='/portfolio' render={() => (<Portfolio />)} />
-          <Route path='/portfolio/about' render={() => (<About />)} />
-          <Route path='/portfolio/resume' render={() => (<Resume />)} />
+          <Route exact path='/' render={() => (<Portfolio />)} />
+          <Route path='/about' render={() => (<About />)} />
+          <Route path='/resume' render={() => (<Resume />)} />
         </div>
         <Footer />
       </div>

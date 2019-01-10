@@ -12,27 +12,27 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/cropped_misery_ridge_adj.498628a4.jpg"
   },
   {
-    "revision": "76b4a9271168b5dccf19d3bcf48fb262",
-    "url": "/portfolio/static/media/ChristinaWilsonResume2018.76b4a927.png"
+    "revision": "5b9408bccdd827dc7fd7f0cdc9e14663",
+    "url": "/portfolio/static/media/ChristinaWilsonResume2019.5b9408bc.png"
   },
   {
     "revision": "ee2a100325fd284f0097",
     "url": "/portfolio/static/js/runtime~main.ee2a1003.js"
   },
   {
-    "revision": "eda3f4dd84c21479e495",
-    "url": "/portfolio/static/js/main.eda3f4dd.chunk.js"
+    "revision": "272aa3b7cf3a7f76743e",
+    "url": "/portfolio/static/js/main.272aa3b7.chunk.js"
   },
   {
     "revision": "650dc98cd36b72938fec",
     "url": "/portfolio/static/js/1.650dc98c.chunk.js"
   },
   {
-    "revision": "eda3f4dd84c21479e495",
+    "revision": "272aa3b7cf3a7f76743e",
     "url": "/portfolio/static/css/main.ad0e3c7f.chunk.css"
   },
   {
-    "revision": "c5289f12f983248395ca6f413efb7185",
+    "revision": "cb5fb56280994aadbad15764dfad7610",
     "url": "/portfolio/index.html"
   }
 ];
